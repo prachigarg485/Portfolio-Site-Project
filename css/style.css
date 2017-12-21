@@ -1,0 +1,180 @@
+* {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: vardana,"calibri", Garamond, 'Comic Sans MS';
+	overflow-x: hidden;
+}
+
+.box {
+	margin-bottom: 10px;
+	min-height: 50px;
+	background-color: #bdb7b7;
+}
+
+.header {
+	text-align: right;
+	margin: auto;
+	border-bottom: solid 2.5px #2f2a2a;
+}
+
+.logoimage {
+	height: auto;
+}
+
+
+.content {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.bottom {
+	margin-top: 1em;
+	margin: auto;
+}
+
+.feature {
+	width: 100%;
+	margin-left: 1em;
+}
+
+.project {
+	height: auto;
+	margin: auto;
+}
+
+.box2 {
+	border-color: white;
+	padding: 1em;
+	margin: 1em;
+	border: groove;
+}
+
+.lion {
+	width: 100%;
+	height: auto;
+	border-radius: 10em;
+}
+
+.text {
+	text-align: center;
+}
+
+.box3 {
+	border-color: white;
+	padding: 1em;
+	margin: 1em;
+	border: groove;
+}
+
+.humanvsmachine {
+	width: 100%;
+	height: auto;
+	border-radius: 10em;
+}
+
+.box4 {
+
+	border-color: white;
+	padding: 1em;
+	margin: 1em;
+	border: groove;
+}
+
+.profile {
+	width:100%;
+	height: auto;
+	border-radius: 10em;
+}
+ 
+.front-end-developer {
+	width: 100%;
+}
+
+.box {
+	width: 100%;
+}
+
+.logo {
+	width:100%;
+}
+
+.heading {
+	width: 100%;
+	padding-right: 20px;
+}
+
+.feature {
+	width: 100%;
+}
+
+.header{
+	width: 100%;
+}
+
+.body {
+	width: 100%;
+	margin: auto;
+}
+
+.bottom {
+	width: 100%;
+}
+
+@media screen and (min-width: 1001px) {
+	.header { display: flex;
+	 	width:100%;  }
+        .body {	display: flex;
+		width: 100%; }
+	.project { display: flex;}
+	.heading { text-align: right;
+		padding-right: 20px;
+		width: 60%;}
+	.content {	width: 70%;}
+        .box3 {	width: 33%;}
+        .box2 {	width: 33%;}
+        .box4 {	width: 33%;}
+	.logoimage { float: left;
+		width: 33%; }
+	.bottom { width:100%;}
+        .name {	font-size: 40pt;}
+	.image {  width:30%; }
+}
+
+@media screen and (max-width: 600px) {
+	.heading { text-align: center; }
+	.logoimage { width: 100%; }
+	.image { width: 100%; }
+	.content { width: 100%;
+		   padding-right: 1.5em; }
+	.box2 { width: 100%;
+		margin: auto; }
+	.box3 { width: 100%;
+		margin: auto; }
+	.box4 { width: 100%;
+		margin: auto; }
+	.front-end-developer { margin: auto; }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+	.header { display: flex;
+	 	width:100%;}
+	.body {display: flex;
+	      width: 100%;}
+	.project {display: flex;
+	         flex-wrap: wrap;}
+	.heading { text-align: right;
+		padding-right: 20px;
+		width: 60%;}
+	.logoimage {width: 33%;}
+	.content {width: 70%;}
+	.box3 {width: 33%;}
+	.box2 {width: 33%;}
+	.box4 {width: 33%;}
+	.logoimage { float: left;}
+	.bottom { width:100%;}
+	.image {width: 33%;}
+	.name {font-size: 40pt;}
+}
